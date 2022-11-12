@@ -1,7 +1,7 @@
 //Описать функцию, которая возвращает точку пересечения двух прямых (уравнение вида y=ax+b). На вход пользователем подаются две пары a и b.
 #include<iostream>
 using namespace std;
-void parallel(double a = 0, double b = 0, double a1 = 0, double b1 = 0) {
+void parallel(double a = 0, double a1 = 0, double b = 0, double b1 = 0) {
     setlocale(LC_ALL, "Russian");
     if ((a / a1) == (b / b1)) {
 	cout << "Прямые параллельны" << endl;
