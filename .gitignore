@@ -7,10 +7,10 @@ void parallel(double a = 0, double b = 0, double a1 = 0, double b1 = 0) {
 	cout << "Прямые параллельны" << endl;
     }
     else {
-    double y = (a1 * a - b1 * b) / (a1 - a);
-    double x = (b - b1) / (a1 - a);
-    cout << "Точка пересечения x= " << x << endl;
-    cout << "Точка пересечения y= " << y << endl;
+        double y = (a1 * a - b1 * b) / (a1 - a);
+        double x = (b - b1) / (a1 - a);
+        cout << "Точка пересечения x= " << x << endl;
+        cout << "Точка пересечения y= " << y << endl;
     }
 }
 int main() {
